@@ -10,11 +10,11 @@ function App() {
   return (
     <BrowserRouter>
       <Header.root>
-        <div className="flex justify-between ml-[-1rem] w-1/6 items-center">
-          <a href="https://cotuca.unicamp.br"><img src="/cotuca.png" className="h-10" alt="logo cotuca" /></a>
+        <div className="flex-col h-1/6 justify-around items-center sm:h-fit sm:flex-row flex mt-10 sm:mt-0 sm:w-1/6">
+          <a href="https://cotuca.unicamp.br"><img src="/cotuca.png" className="h-10 w-10" alt="logo cotuca" /></a>
           { path != "/" && <Header.button path="/" text="home" /> }
         </div>
-        <div className="w-1/3 flex justify-between items-center">
+        <div className="sm:w-1/3 h-1/3 flex-col justify-around items-center sm:h-fit sm:flex-row flex sm:justify-between sm:items-center">
           <Header.button path="/student" text="aluno" />
           <Header.button path="/courses" text="curso" />
           <Header.button path="/carometer" text="carômetro" />
