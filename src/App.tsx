@@ -23,7 +23,7 @@ function App() {
       <main className="px-12 py-10">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/students" element={<Students />} />
+          <Route path="/student" element={<Students />} />
           <Route path="/courses" element={<Students />} />
           <Route path="/carometer" element={<Students />} />
         </Routes>
