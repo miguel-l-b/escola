@@ -20,7 +20,7 @@ function App() {
           <Header.button path="/carometer" text="carômetro" />
         </div>
       </Header.root>
-      <main className="px-12 py-10">
+      <main className="px-12 py-10 h-5/6">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/student" element={<Students />} />
