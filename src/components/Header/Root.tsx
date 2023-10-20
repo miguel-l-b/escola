@@ -7,8 +7,8 @@ export interface RootProps {
 export default function Root({ children }: RootProps) {
   const [isOpened, setIsOpened] = useState(false)
   return (
-    <header className="md:pt-20 md:px-24">
-      <nav className="hidden sm:flex w-auto relative flex-row bg-gray-200 min-h-[4rem] drop-shadow-xl px-5 justify-between items-center md:rounded-full">
+    <header className="md:pt-20 md:px-24 relative">
+      <nav className="hidden sm:flex relative flex-row bg-gray-200 min-h-[4rem] drop-shadow-xl px-5 justify-between items-center md:rounded-full">
         {children}
       </nav>
 

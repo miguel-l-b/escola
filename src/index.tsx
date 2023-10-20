@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <body className="bg-gray-100 h-screen">
+    <body className="bg-gray-100">
       <App />
     </body>
   </React.StrictMode>
