@@ -33,11 +33,11 @@ export default function Students() {
   return (
     <>
       <h2 className="text-center mb-4 font-light text-xl text-gray-600">Adicionar Aluno</h2>
-      <form className="m-auto w-1/2 flex flex-col justify-center gap-8 mb-8" onSubmit={(e) => e.preventDefault()}>
-        <input type="text" placeholder="Nome" className="w-full h-fit py-1 px-3 rounded-lg" />
-        <input type="text" placeholder="Curso" className="w-full h-fit py-1 px-3 rounded-lg" />
-        <input type="url" placeholder="Foto" className="w-full h-fit py-1 px-3 rounded-lg" />
-        <Button type="submit" className=" bg-green-400 hover:bg-green-100 hover:text-green-500">Criar</Button>
+      <form className="m-auto w-1/2 flex flex-col justify-center items-center gap-8 mb-8" onSubmit={(e) => e.preventDefault()}>
+        <input type="text" placeholder="Nome" className="max-w-md w-full h-fit py-1 px-3 rounded-lg" />
+        <input type="text" placeholder="Curso" className="max-w-md w-full h-fit py-1 px-3 rounded-lg" />
+        <input type="url" placeholder="Foto" className="max-w-md w-full h-fit py-1 px-3 rounded-lg" />
+        <Button type="submit" className="max-w-md w-full bg-green-400 hover:bg-green-100 hover:text-green-500">Criar</Button>
       </form>
 
       <h2 className="text-center mb-4 font-light text-xl text-gray-600">Lista de Alunos</h2>

@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from './pages/Home'
 import Students from './pages/Students'
 import Header from './components/Header'
+import Courses from './pages/Courses'
 
 function App() {
   const [path, setPath] = useState(window.location.pathname)
@@ -24,7 +25,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/student" element={<Students />} />
-          <Route path="/courses" element={<Students />} />
+          <Route path="/courses" element={<Courses />} />
           <Route path="/carometer" element={<Students />} />
         </Routes>
       </main>
