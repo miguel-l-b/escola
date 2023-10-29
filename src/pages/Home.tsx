@@ -15,7 +15,7 @@ export default function Home() {
   }, [])
   return (
     <>
-    <div className="w-full h-full flex flex-col justify-between items-center">
+    <div className="w-full h-[60vh] flex flex-col justify-between items-center">
       <h1 className="text-center sm:text-left text-2xl sm:text-3xl font-thin">
         Olá, agora são {hours} horas e {minutes} minutos
       </h1>
