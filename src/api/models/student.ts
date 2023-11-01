@@ -21,7 +21,7 @@ export default class Student {
   }
 
   static async update(student: IStudent) {
-    return await Student.base_connection.put("/student/put", student).then((res) => {
+    return await Student.base_connection.put("/student/put/"+student.id, student).then((res) => {
       return res.data as IStudent;
     }
     ).catch((err) => {
